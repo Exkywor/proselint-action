@@ -1,0 +1,6 @@
+name: 'Proselint'
+author: 'Exkywor <fernandoquant.dev@gmail.com>'
+description: 'GitHub action for Proselint.'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
