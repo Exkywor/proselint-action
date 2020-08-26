@@ -6,5 +6,5 @@ mdFiles=$(find . -type f -name "*.md")
 # Lint md files
 for file in $mdFiles
 do
-  proselint $file
+  proselint $file >&1
 done
