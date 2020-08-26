@@ -1,6 +1,7 @@
 #!/bin/sh -l
 
-for file in *.*md
+ls
+for file in .*md
 do
   echo "$1"
 done
