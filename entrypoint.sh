@@ -1,4 +1,7 @@
 #!/bin/sh -l
 
-ls
-echo 'Hello world'
+for file in *.md
+do
+  echo "$1"
+done
+
